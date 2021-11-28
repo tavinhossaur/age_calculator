@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name='telakt'
+rootProject.name='calculadora_de_idade'
