@@ -78,13 +78,7 @@ class MainActivity : AppCompatActivity() {
         textDataNascAno.setText("");
         textResIdade.setText("");
     }
-
-   /* @SuppressLint("SetTextI18n")
-    private fun validarInputs(){
-        if(textDataAtualAno != null || textDataAtualMes != null || textDataAtualDia != null || textDataNascAno != null || textDataNascMes != null || textDataNascDia != null)
-            textResIdade.setText("Os valores não podem ser nulos.")
-    }
-*/
+    
     // Função do cálculo, e exibição do resultado da conta
     private fun calcular(){
 
