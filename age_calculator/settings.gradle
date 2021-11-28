@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name='calculadora_de_idade'
+rootProject.name='calculadora_idade'
