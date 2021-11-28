@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212121"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#690e0e">
+
+        <ImageView
+            android:id="@+id/imgEtec"
+            android:layout_width="wrap_content"
+            android:layout_height="227dp"
+            app:srcCompat="@drawable/aaa2" />
+
+        <TextView
+            android:id="@+id/textDataNasc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="100dp"
+            android:text="Insira sua data de nascimento:"
+            android:textColor="#ffffff"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textIdade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="190dp"
+            android:text="Tempo de vida:"
+            android:textColor="#ffffff"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/textDataNascDia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="55dp"
+            android:hint="dd"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:maxLength="2"
+            android:minWidth="48dp"
+            android:textAlignment="center"
+            android:textColor="#e6e6e6"
+            android:textColorHint="#808080"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/textDataNascMes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:imeOptions="actionNext"
+            android:maxLength="2"
+            android:inputType="number"
+            android:layout_marginBottom="55dp"
+            android:hint="mm"
+            android:textAlignment="center"
+            android:textColor="#e6e6e6"
+            android:textColorHint="#808080"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/textDataNascAno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:inputType="number"
+            android:maxLength="4"
+            android:imeOptions="actionNext"
+            android:layout_marginLeft="60dp"
+            android:layout_marginBottom="55dp"
+            android:hint="aaaa"
+            android:textAlignment="center"
+            android:textColor="#e6e6e6"
+            android:textColorHint="#808080"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textDataAtual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Insira a data atual:"
+            android:textColor="#ffffff"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/textDataAtualDia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="-55dp"
+            android:hint="dd"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:maxLength="2"
+            android:minWidth="48dp"
+            android:textAlignment="center"
+            android:textColor="#e6e6e6"
+            android:textColorHint="#808080"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/textDataAtualMes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="-55dp"
+            android:inputType="number"
+            android:hint="mm"
+            android:maxLength="2"
+            android:textAlignment="center"
+            android:imeOptions="actionNext"
+            android:textColor="#e6e6e6"
+            android:textColorHint="#808080"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/textDataAtualAno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="60dp"
+            android:layout_marginBottom="-55dp"
+            android:maxLength="4"
+            android:inputType="number"
+            android:imeOptions="actionNext"
+            android:hint="aaaa"
+            android:textAlignment="center"
+            android:textColor="#e6e6e6"
+            android:textColorHint="#808080"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/btnCalc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="-60dp"
+            android:background="#4f0a0a"
+            android:text="Calcular"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="60dp"
+            android:background="#4f0a0a"
+            android:text="Limpar"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/textResIdade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="230dp"
+            android:textColor="#43d1b9"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textCredits"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="290dp"
+            android:layout_marginBottom="10dp"
+            android:text="made by tavinho"
+            android:textColor="#e6e6e6" />
+
+    </FrameLayout>
+
+</LinearLayout>
